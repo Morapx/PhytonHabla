@@ -49,8 +49,8 @@ plt.xlabel('Tiempo (segundos)')
 plt.ylabel('Amplitud')
 
 #agregar informacion de las ondas para graficar
-plt.plot(time_gm, good_morning, label = 'Good morning')
-plt.plot(time_ga, good_afternoon, label= 'Good afternoon', alpha = 0.5)
+plt.plot(time_ga, ondaconvertidaafter, label="good afternoon")
+plt.plot(time_gm, ondaconvertida, label="Good Morning", alpha=0.5)
 
 plt.legend()
 plt.show()

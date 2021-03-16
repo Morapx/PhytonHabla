@@ -51,8 +51,8 @@ plt.xlabel('Tiempo (segundos)')
 plt.ylabel('Amplitud')
 
 #agregar informacion de las ondas para graficar
-plt.plot(time_scrm, scream, label = 'scream')
-plt.plot(time_kaa, screamkaa, label= 'kaa', alpha = 0.5)
+plt.plot(time_scrm, ondaconvertidascream, label = 'scream')
+plt.plot(time_kaa, ondaconvertidaskaa, label= 'kaa', alpha = 0.5)
 
 plt.legend()
 plt.show()
